@@ -4,7 +4,7 @@ import time
 import requests
 from bs4 import BeautifulSoup
 
-WEBHOOK_URL = os.getenv("WEBHOOK_URL", "https://discord.com/api/webhooks/1560949586758205490/0LVVn6YbNweum_EMIGTFr8J0cml5NeZUOl7vsmsNy5wiHgPR2fhmzPNeIwS1lMsfr2IBgit init")  # Замените на ваш URL вебхука Discord
+WEBHOOK_URL = os.getenv("WEBHOOK_URL", "https://discord.com/api/webhooks/1560949586758205490/0LVVn6YbNweum_EMIGTFr8J0cml5NeZUOl7vsmsNy5wiHgPR2fhmzPNeIwS1lMsfr2IB")  # Замените на ваш URL вебхука Discord
 NEWS_URL = "https://deadlock.one/news"
 CACHE_FILE = "last_sent_news.json"
 
